@@ -34,9 +34,9 @@ The project explores and compares three digital control methods generated via Ar
 ##  Project Structure
 Arduino-Single-Phase-Inverter-SPWM/
 │
-├── Inverter_Control.ino 
-├── Proteus_Simulation/
-   ├── inverter_simulation.png
+├── Inverter_Control.ino           
+├── commande MLI.png               
+└── README.md
 
 ## Future Improvements
 Hardware Implementation: Build physical PCB prototype with proper heat sinking
@@ -44,11 +44,9 @@ MPPT Integration: Implement Maximum Power Point Tracking for solar optimization
 High-Frequency SPWM: Use Arduino Timer1 registers to increase PWM carrier frequency from ~490Hz to 20kHz for smaller, cheaper LC filters
 LCD Display: Add real-time monitoring of voltage, current, and frequency
 Protection Circuits: Over-current, over-voltage, and thermal protection
-Authors
+
+## Authors
 Khadija Stitou & Aymane Taleb Ali
 DUT Electrical Engineering (Electrotechnics) – EST Meknès, 2025
 Engineering Students in Intelligent Embedded Systems & Telecommunications – FST Errachidia
 Khadija's LinkedIn: (https://www.linkedin.com/in/khadija-stitou-b42792293)
-│ └── inverter_simulation.png # Screenshot of Proteus ISIS simulationprotection
-├── SPWM_Control.ino          # Advanced Sinusoidal PWM using lookup table
-└── Proteus_Simulation/       # (Optional) Upload your .pdsprj file here
